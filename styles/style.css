@@ -53,7 +53,6 @@
   width: 765px;
   height: 608px;
   position: absolute;
-  position: absolute;
   bottom: 0px;
   right: 0px;
 }
@@ -356,6 +355,13 @@
   justify-content: space-between;
 }
 
+.logo_place_footer{
+  display: flex;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
 .footer_columns_content-copyright{
   flex-basis: 711px;
   flex-direction: column;
@@ -367,12 +373,6 @@
   flex-direction: row-reverse;
 }
 
-.logo_place_header{
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-}
 
 .footer_author{
   display: flex;

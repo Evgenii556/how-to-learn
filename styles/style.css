@@ -53,7 +53,7 @@
   z-index: 2;
 }
 
-.header_main-illustration{
+.header__main-illustration{
   width: 765px;
   height: 608px;
   position: absolute;
@@ -74,14 +74,6 @@
 .header__link{
   color: #2f80ed;
   text-decoration: none;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .description{
@@ -259,7 +251,7 @@
   z-index: 1;
 }
 
-.feynman_link{
+.feynman__link{
   position: absolute;
   top: 50%;
   right: 48px;
@@ -300,6 +292,8 @@
 .table__cell_theme_dark{
   width: 200px;
   margin-top: 80px;
+  margin-right: 0;
+  color: white;
 }
 
 .table__heading_theme_dark{
@@ -341,7 +335,7 @@
   margin: 0;
 }
 
-.footer_columns_content-copyright{
+.footer__columns_content-copyright{
   flex-basis: 711px;
   display: flex;
   flex-direction: column;

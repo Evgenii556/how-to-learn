@@ -2,5 +2,6 @@
     display: flex;
     width: 608px;
     height: 620px;
-    background-image: url(../../../images/khan-book.jpg);
+    object-position: top;
+    object-fit: cover;
 }

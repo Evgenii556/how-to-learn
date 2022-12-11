@@ -1,6 +1,9 @@
 .video__iframe{
     display: flex;
     border: none;
+    margin-bottom: -40px;
+    height: 315px;
+    width: 560px;
 }
   
 .video__iframe:last-child{
